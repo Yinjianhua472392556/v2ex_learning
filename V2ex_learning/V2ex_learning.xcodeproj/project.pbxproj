@@ -13,6 +13,12 @@
 		18C3AC811D41FABF001FE82B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C3AC7F1D41FABF001FE82B /* Main.storyboard */; };
 		18C3AC831D41FABF001FE82B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18C3AC821D41FABF001FE82B /* Assets.xcassets */; };
 		18C3AC861D41FABF001FE82B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18C3AC841D41FABF001FE82B /* LaunchScreen.storyboard */; };
+		18E4D2231D45AAF40081FCC0 /* V2RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4D2221D45AAF40081FCC0 /* V2RootViewController.m */; };
+		18E4D2261D45AB0F0081FCC0 /* V2LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4D2251D45AB0F0081FCC0 /* V2LoginViewController.m */; };
+		18E4D22B1D45AB930081FCC0 /* SCPullRefreshViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4D22A1D45AB930081FCC0 /* SCPullRefreshViewController.m */; };
+		18E4D22E1D45ABB30081FCC0 /* SCAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4D22D1D45ABB30081FCC0 /* SCAnimationView.m */; };
+		18E4D2351D45AE8E0081FCC0 /* CAAnimation+BlocksAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4D2341D45AE8E0081FCC0 /* CAAnimation+BlocksAddition.m */; };
+		18E4D2381D45AED10081FCC0 /* V2SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18E4D2371D45AED10081FCC0 /* V2SettingViewController.m */; };
 		F000FF0220D54083F3FD4562 /* libPods-V2ex_learning.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5456D5395E97339A3073D58F /* libPods-V2ex_learning.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +33,18 @@
 		18C3AC821D41FABF001FE82B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18C3AC851D41FABF001FE82B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18C3AC871D41FABF001FE82B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18E4D2211D45AAF40081FCC0 /* V2RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2RootViewController.h; sourceTree = "<group>"; };
+		18E4D2221D45AAF40081FCC0 /* V2RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2RootViewController.m; sourceTree = "<group>"; };
+		18E4D2241D45AB0F0081FCC0 /* V2LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2LoginViewController.h; sourceTree = "<group>"; };
+		18E4D2251D45AB0F0081FCC0 /* V2LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2LoginViewController.m; sourceTree = "<group>"; };
+		18E4D2291D45AB930081FCC0 /* SCPullRefreshViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCPullRefreshViewController.h; sourceTree = "<group>"; };
+		18E4D22A1D45AB930081FCC0 /* SCPullRefreshViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCPullRefreshViewController.m; sourceTree = "<group>"; };
+		18E4D22C1D45ABB30081FCC0 /* SCAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCAnimationView.h; sourceTree = "<group>"; };
+		18E4D22D1D45ABB30081FCC0 /* SCAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCAnimationView.m; sourceTree = "<group>"; };
+		18E4D2331D45AE8E0081FCC0 /* CAAnimation+BlocksAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAAnimation+BlocksAddition.h"; sourceTree = "<group>"; };
+		18E4D2341D45AE8E0081FCC0 /* CAAnimation+BlocksAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+BlocksAddition.m"; sourceTree = "<group>"; };
+		18E4D2361D45AED10081FCC0 /* V2SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2SettingViewController.h; sourceTree = "<group>"; };
+		18E4D2371D45AED10081FCC0 /* V2SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2SettingViewController.m; sourceTree = "<group>"; };
 		5456D5395E97339A3073D58F /* libPods-V2ex_learning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-V2ex_learning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CF5D50B0B996C6F234DEB7 /* Pods-V2ex_learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V2ex_learning.release.xcconfig"; path = "Pods/Target Support Files/Pods-V2ex_learning/Pods-V2ex_learning.release.xcconfig"; sourceTree = "<group>"; };
 		EA9809F56FD2012FEE8190B8 /* Pods-V2ex_learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V2ex_learning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-V2ex_learning/Pods-V2ex_learning.debug.xcconfig"; sourceTree = "<group>"; };
@@ -95,6 +113,7 @@
 		18E4D21B1D45A9A20081FCC0 /* Additions */ = {
 			isa = PBXGroup;
 			children = (
+				18E4D2271D45AB760081FCC0 /* SCPullRefresh */,
 			);
 			path = Additions;
 			sourceTree = "<group>";
@@ -102,6 +121,12 @@
 		18E4D21C1D45A9A20081FCC0 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				18E4D2211D45AAF40081FCC0 /* V2RootViewController.h */,
+				18E4D2221D45AAF40081FCC0 /* V2RootViewController.m */,
+				18E4D2241D45AB0F0081FCC0 /* V2LoginViewController.h */,
+				18E4D2251D45AB0F0081FCC0 /* V2LoginViewController.m */,
+				18E4D2361D45AED10081FCC0 /* V2SettingViewController.h */,
+				18E4D2371D45AED10081FCC0 /* V2SettingViewController.m */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -132,6 +157,27 @@
 			children = (
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		18E4D2271D45AB760081FCC0 /* SCPullRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				18E4D2321D45AE580081FCC0 /* CAAnimationBlocks */,
+				18E4D2291D45AB930081FCC0 /* SCPullRefreshViewController.h */,
+				18E4D22A1D45AB930081FCC0 /* SCPullRefreshViewController.m */,
+				18E4D22C1D45ABB30081FCC0 /* SCAnimationView.h */,
+				18E4D22D1D45ABB30081FCC0 /* SCAnimationView.m */,
+			);
+			path = SCPullRefresh;
+			sourceTree = "<group>";
+		};
+		18E4D2321D45AE580081FCC0 /* CAAnimationBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				18E4D2331D45AE8E0081FCC0 /* CAAnimation+BlocksAddition.h */,
+				18E4D2341D45AE8E0081FCC0 /* CAAnimation+BlocksAddition.m */,
+			);
+			path = CAAnimationBlocks;
 			sourceTree = "<group>";
 		};
 		24DBDD059D81F7DADB813E9E /* Frameworks */ = {
@@ -272,7 +318,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E4D2351D45AE8E0081FCC0 /* CAAnimation+BlocksAddition.m in Sources */,
+				18E4D2261D45AB0F0081FCC0 /* V2LoginViewController.m in Sources */,
+				18E4D2231D45AAF40081FCC0 /* V2RootViewController.m in Sources */,
 				18C3AC7E1D41FABF001FE82B /* ViewController.m in Sources */,
+				18E4D22B1D45AB930081FCC0 /* SCPullRefreshViewController.m in Sources */,
+				18E4D22E1D45ABB30081FCC0 /* SCAnimationView.m in Sources */,
+				18E4D2381D45AED10081FCC0 /* V2SettingViewController.m in Sources */,
 				18C3AC7B1D41FABF001FE82B /* AppDelegate.m in Sources */,
 				18C3AC781D41FABF001FE82B /* main.m in Sources */,
 			);
