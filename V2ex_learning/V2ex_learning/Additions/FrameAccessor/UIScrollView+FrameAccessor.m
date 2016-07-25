@@ -1,13 +1,12 @@
 //
-//  ScrollViewFrameAccessor.m
-//  ScrollViewFrameAccessor
+//  UIScrollView+FrameAccessor.m
+//  V2ex_learning
 //
-//  Created by Ivanenko Dmitry on 28.10.13.
-//  Copyright (c) 2013 Artox Lab. All rights reserved.
+//  Created by apple on 16/7/25.
+//  Copyright © 2016年 apple. All rights reserved.
 //
 
-#import "ScrollViewFrameAccessor.h"
-
+#import "UIScrollView+FrameAccessor.h"
 
 @implementation UIScrollView (FrameAccessor)
 
@@ -106,5 +105,6 @@
     newContentInset.left = newContentInsetLeft;
     self.contentInset = newContentInset;
 }
+
 
 @end

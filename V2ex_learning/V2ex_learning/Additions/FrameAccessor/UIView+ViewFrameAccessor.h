@@ -1,25 +1,14 @@
 //
-//  ViewFrameAccessor.h
-//  ViewFrameAccessor
+//  UIView+ViewFrameAccessor.h
+//  V2ex_learning
 //
-//  Created by Alex Denisov on 18.03.12.
-//  Copyright (c) 2013 okolodev.org. All rights reserved.
+//  Created by apple on 16/7/25.
+//  Copyright © 2016年 apple. All rights reserved.
 //
 
+#import <UIKit/UIKit.h>
 
-#define IS_IOS_DEVICE (TARGET_IPHONE_SIMULATOR || TARGET_OS_IPHONE)
-
-#if IS_IOS_DEVICE
-    #import <UIKit/UIKit.h>
-    #define View UIView
-#else
-    #import <Foundation/Foundation.h>
-    #define View NSView
-#endif
-
-
-@interface View (FrameAccessor)
-
+@interface UIView (ViewFrameAccessor)
 // Frame
 @property (nonatomic) CGPoint origin;
 @property (nonatomic) CGSize size;

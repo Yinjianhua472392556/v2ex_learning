@@ -1,16 +1,14 @@
 //
-//  ViewFrameAccessor.m
-//  ViewFrameAccessor
+//  UIView+ViewFrameAccessor.m
+//  V2ex_learning
 //
-//  Created by Alex Denisov on 18.03.12.
-//  Copyright (c) 2013 okolodev.org. All rights reserved.
+//  Created by apple on 16/7/25.
+//  Copyright © 2016年 apple. All rights reserved.
 //
 
-#import "ViewFrameAccessor.h"
+#import "UIView+ViewFrameAccessor.h"
 
-
-@implementation View (FrameAccessor)
-
+@implementation UIView (ViewFrameAccessor)
 #pragma mark Frame
 
 - (CGPoint)origin

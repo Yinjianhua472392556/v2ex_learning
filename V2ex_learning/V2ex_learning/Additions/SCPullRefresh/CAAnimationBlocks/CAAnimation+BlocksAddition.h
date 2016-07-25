@@ -10,4 +10,8 @@
 
 @interface CAAnimation (BlocksAddition)
 
+@property (nonatomic, copy) void (^completion)(BOOL finished, CALayer *layer);
+@property (nonatomic, copy) void (^start)(void);
+
+- (void)setCompletion:(void (^)(BOOL finished, CALayer *))completion; // Forces auto-complete of setCompletion: to add the name 'finished' in the block parameter
 @end

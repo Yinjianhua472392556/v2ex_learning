@@ -10,4 +10,8 @@
 
 @interface SCAnimationView : UIView
 
+@property (nonatomic, assign) CGFloat timeOffset; // 0.0 ~ 1.0
+
+- (void)beginRefreshing;
+- (void)endRefreshing;
 @end

@@ -8,10 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
+#import "SCNavigationController.h"
+#import "V2RootViewController.h"
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (nonatomic, strong) V2RootViewController *rootViewController;
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (nonatomic, assign) SCNavigationController *currentNavigationController;
 
 @end
 

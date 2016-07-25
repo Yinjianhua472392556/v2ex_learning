@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		180254961D45BB6400E39B21 /* UIView+ViewFrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254951D45BB6400E39B21 /* UIView+ViewFrameAccessor.m */; };
+		180254991D45BB7A00E39B21 /* UIScrollView+FrameAccessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254981D45BB7A00E39B21 /* UIScrollView+FrameAccessor.m */; };
+		1802549D1D45E65100E39B21 /* V2SettingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802549C1D45E65100E39B21 /* V2SettingManager.m */; };
+		180254A01D45F48100E39B21 /* V2DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1802549F1D45F48100E39B21 /* V2DataManager.m */; };
+		180254B11D46006500E39B21 /* SCBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254A31D46006500E39B21 /* SCBarButtonItem.m */; };
+		180254B21D46006500E39B21 /* SCNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254A61D46006500E39B21 /* SCNavigationController.m */; };
+		180254B31D46006500E39B21 /* SCNavigationItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254A81D46006500E39B21 /* SCNavigationItem.m */; };
+		180254B41D46006500E39B21 /* SCNavigationPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254AA1D46006500E39B21 /* SCNavigationPopAnimation.m */; };
+		180254B51D46006500E39B21 /* SCNavigationPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254AC1D46006500E39B21 /* SCNavigationPushAnimation.m */; };
+		180254B61D46006500E39B21 /* SCViewController+NaviBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254AE1D46006500E39B21 /* SCViewController+NaviBar.m */; };
+		180254B71D46006500E39B21 /* V2NavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254B01D46006500E39B21 /* V2NavigationBar.m */; };
+		180254BC1D46014E00E39B21 /* EXTScope.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254BA1D46014E00E39B21 /* EXTScope.m */; };
+		180254C01D46034100E39B21 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254BF1D46034100E39B21 /* UIImage+Tint.m */; };
+		180254C31D46035000E39B21 /* UIImage+Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254C21D46035000E39B21 /* UIImage+Cache.m */; };
+		180254C61D46037100E39B21 /* V2Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254C51D46037100E39B21 /* V2Helper.m */; };
 		18C3AC781D41FABF001FE82B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3AC771D41FABF001FE82B /* main.m */; };
 		18C3AC7B1D41FABF001FE82B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3AC7A1D41FABF001FE82B /* AppDelegate.m */; };
 		18C3AC7E1D41FABF001FE82B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3AC7D1D41FABF001FE82B /* ViewController.m */; };
@@ -23,6 +38,39 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		180254941D45BB6400E39B21 /* UIView+ViewFrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ViewFrameAccessor.h"; sourceTree = "<group>"; };
+		180254951D45BB6400E39B21 /* UIView+ViewFrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ViewFrameAccessor.m"; sourceTree = "<group>"; };
+		180254971D45BB7A00E39B21 /* UIScrollView+FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+FrameAccessor.h"; sourceTree = "<group>"; };
+		180254981D45BB7A00E39B21 /* UIScrollView+FrameAccessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+FrameAccessor.m"; sourceTree = "<group>"; };
+		1802549A1D45BB8A00E39B21 /* FrameAccessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameAccessor.h; sourceTree = "<group>"; };
+		1802549B1D45E65100E39B21 /* V2SettingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2SettingManager.h; sourceTree = "<group>"; };
+		1802549C1D45E65100E39B21 /* V2SettingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2SettingManager.m; sourceTree = "<group>"; };
+		1802549E1D45F48100E39B21 /* V2DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2DataManager.h; sourceTree = "<group>"; };
+		1802549F1D45F48100E39B21 /* V2DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2DataManager.m; sourceTree = "<group>"; };
+		180254A21D46006500E39B21 /* SCBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCBarButtonItem.h; sourceTree = "<group>"; };
+		180254A31D46006500E39B21 /* SCBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCBarButtonItem.m; sourceTree = "<group>"; };
+		180254A41D46006500E39B21 /* SCNavigation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNavigation.h; sourceTree = "<group>"; };
+		180254A51D46006500E39B21 /* SCNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNavigationController.h; sourceTree = "<group>"; };
+		180254A61D46006500E39B21 /* SCNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNavigationController.m; sourceTree = "<group>"; };
+		180254A71D46006500E39B21 /* SCNavigationItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNavigationItem.h; sourceTree = "<group>"; };
+		180254A81D46006500E39B21 /* SCNavigationItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNavigationItem.m; sourceTree = "<group>"; };
+		180254A91D46006500E39B21 /* SCNavigationPopAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNavigationPopAnimation.h; sourceTree = "<group>"; };
+		180254AA1D46006500E39B21 /* SCNavigationPopAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNavigationPopAnimation.m; sourceTree = "<group>"; };
+		180254AB1D46006500E39B21 /* SCNavigationPushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCNavigationPushAnimation.h; sourceTree = "<group>"; };
+		180254AC1D46006500E39B21 /* SCNavigationPushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCNavigationPushAnimation.m; sourceTree = "<group>"; };
+		180254AD1D46006500E39B21 /* SCViewController+NaviBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCViewController+NaviBar.h"; sourceTree = "<group>"; };
+		180254AE1D46006500E39B21 /* SCViewController+NaviBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SCViewController+NaviBar.m"; sourceTree = "<group>"; };
+		180254AF1D46006500E39B21 /* V2NavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2NavigationBar.h; sourceTree = "<group>"; };
+		180254B01D46006500E39B21 /* V2NavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2NavigationBar.m; sourceTree = "<group>"; };
+		180254B91D46014E00E39B21 /* EXTScope.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EXTScope.h; sourceTree = "<group>"; };
+		180254BA1D46014E00E39B21 /* EXTScope.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EXTScope.m; sourceTree = "<group>"; };
+		180254BB1D46014E00E39B21 /* metamacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = metamacros.h; sourceTree = "<group>"; };
+		180254BE1D46034100E39B21 /* UIImage+Tint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Tint.h"; sourceTree = "<group>"; };
+		180254BF1D46034100E39B21 /* UIImage+Tint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Tint.m"; sourceTree = "<group>"; };
+		180254C11D46035000E39B21 /* UIImage+Cache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Cache.h"; sourceTree = "<group>"; };
+		180254C21D46035000E39B21 /* UIImage+Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Cache.m"; sourceTree = "<group>"; };
+		180254C41D46037100E39B21 /* V2Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2Helper.h; sourceTree = "<group>"; };
+		180254C51D46037100E39B21 /* V2Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2Helper.m; sourceTree = "<group>"; };
 		18C3AC731D41FABF001FE82B /* V2ex_learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = V2ex_learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C3AC771D41FABF001FE82B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18C3AC791D41FABF001FE82B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -45,6 +93,7 @@
 		18E4D2341D45AE8E0081FCC0 /* CAAnimation+BlocksAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAAnimation+BlocksAddition.m"; sourceTree = "<group>"; };
 		18E4D2361D45AED10081FCC0 /* V2SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2SettingViewController.h; sourceTree = "<group>"; };
 		18E4D2371D45AED10081FCC0 /* V2SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2SettingViewController.m; sourceTree = "<group>"; };
+		18E4D2391D45B74D0081FCC0 /* V2ex_learning-iOS-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "V2ex_learning-iOS-Prefix.pch"; sourceTree = "<group>"; };
 		5456D5395E97339A3073D58F /* libPods-V2ex_learning.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-V2ex_learning.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		58CF5D50B0B996C6F234DEB7 /* Pods-V2ex_learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V2ex_learning.release.xcconfig"; path = "Pods/Target Support Files/Pods-V2ex_learning/Pods-V2ex_learning.release.xcconfig"; sourceTree = "<group>"; };
 		EA9809F56FD2012FEE8190B8 /* Pods-V2ex_learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-V2ex_learning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-V2ex_learning/Pods-V2ex_learning.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +111,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		180254931D45BB0D00E39B21 /* FrameAccessor */ = {
+			isa = PBXGroup;
+			children = (
+				1802549A1D45BB8A00E39B21 /* FrameAccessor.h */,
+				180254941D45BB6400E39B21 /* UIView+ViewFrameAccessor.h */,
+				180254951D45BB6400E39B21 /* UIView+ViewFrameAccessor.m */,
+				180254971D45BB7A00E39B21 /* UIScrollView+FrameAccessor.h */,
+				180254981D45BB7A00E39B21 /* UIScrollView+FrameAccessor.m */,
+			);
+			path = FrameAccessor;
+			sourceTree = "<group>";
+		};
+		180254A11D46006500E39B21 /* SCNavitagionController */ = {
+			isa = PBXGroup;
+			children = (
+				180254A21D46006500E39B21 /* SCBarButtonItem.h */,
+				180254A31D46006500E39B21 /* SCBarButtonItem.m */,
+				180254A41D46006500E39B21 /* SCNavigation.h */,
+				180254A51D46006500E39B21 /* SCNavigationController.h */,
+				180254A61D46006500E39B21 /* SCNavigationController.m */,
+				180254A71D46006500E39B21 /* SCNavigationItem.h */,
+				180254A81D46006500E39B21 /* SCNavigationItem.m */,
+				180254A91D46006500E39B21 /* SCNavigationPopAnimation.h */,
+				180254AA1D46006500E39B21 /* SCNavigationPopAnimation.m */,
+				180254AB1D46006500E39B21 /* SCNavigationPushAnimation.h */,
+				180254AC1D46006500E39B21 /* SCNavigationPushAnimation.m */,
+				180254AD1D46006500E39B21 /* SCViewController+NaviBar.h */,
+				180254AE1D46006500E39B21 /* SCViewController+NaviBar.m */,
+				180254AF1D46006500E39B21 /* V2NavigationBar.h */,
+				180254B01D46006500E39B21 /* V2NavigationBar.m */,
+			);
+			path = SCNavitagionController;
+			sourceTree = "<group>";
+		};
+		180254B81D46014E00E39B21 /* EXTScope */ = {
+			isa = PBXGroup;
+			children = (
+				180254B91D46014E00E39B21 /* EXTScope.h */,
+				180254BA1D46014E00E39B21 /* EXTScope.m */,
+				180254BB1D46014E00E39B21 /* metamacros.h */,
+			);
+			path = EXTScope;
+			sourceTree = "<group>";
+		};
+		180254BD1D46031400E39B21 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				180254BE1D46034100E39B21 /* UIImage+Tint.h */,
+				180254BF1D46034100E39B21 /* UIImage+Tint.m */,
+				180254C11D46035000E39B21 /* UIImage+Cache.h */,
+				180254C21D46035000E39B21 /* UIImage+Cache.m */,
+				180254C41D46037100E39B21 /* V2Helper.h */,
+				180254C51D46037100E39B21 /* V2Helper.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
 		18C3AC6A1D41FABF001FE82B = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +212,7 @@
 				18C3AC821D41FABF001FE82B /* Assets.xcassets */,
 				18C3AC841D41FABF001FE82B /* LaunchScreen.storyboard */,
 				18C3AC871D41FABF001FE82B /* Info.plist */,
+				18E4D2391D45B74D0081FCC0 /* V2ex_learning-iOS-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -113,6 +220,10 @@
 		18E4D21B1D45A9A20081FCC0 /* Additions */ = {
 			isa = PBXGroup;
 			children = (
+				180254BD1D46031400E39B21 /* Helper */,
+				180254B81D46014E00E39B21 /* EXTScope */,
+				180254A11D46006500E39B21 /* SCNavitagionController */,
+				180254931D45BB0D00E39B21 /* FrameAccessor */,
 				18E4D2271D45AB760081FCC0 /* SCPullRefresh */,
 			);
 			path = Additions;
@@ -134,6 +245,10 @@
 		18E4D21D1D45A9A20081FCC0 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				1802549B1D45E65100E39B21 /* V2SettingManager.h */,
+				1802549C1D45E65100E39B21 /* V2SettingManager.m */,
+				1802549E1D45F48100E39B21 /* V2DataManager.h */,
+				1802549F1D45F48100E39B21 /* V2DataManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -320,12 +435,27 @@
 			files = (
 				18E4D2351D45AE8E0081FCC0 /* CAAnimation+BlocksAddition.m in Sources */,
 				18E4D2261D45AB0F0081FCC0 /* V2LoginViewController.m in Sources */,
+				180254B31D46006500E39B21 /* SCNavigationItem.m in Sources */,
+				180254BC1D46014E00E39B21 /* EXTScope.m in Sources */,
+				180254991D45BB7A00E39B21 /* UIScrollView+FrameAccessor.m in Sources */,
+				180254A01D45F48100E39B21 /* V2DataManager.m in Sources */,
+				180254B71D46006500E39B21 /* V2NavigationBar.m in Sources */,
+				180254961D45BB6400E39B21 /* UIView+ViewFrameAccessor.m in Sources */,
 				18E4D2231D45AAF40081FCC0 /* V2RootViewController.m in Sources */,
+				180254B61D46006500E39B21 /* SCViewController+NaviBar.m in Sources */,
+				180254C31D46035000E39B21 /* UIImage+Cache.m in Sources */,
+				180254C01D46034100E39B21 /* UIImage+Tint.m in Sources */,
 				18C3AC7E1D41FABF001FE82B /* ViewController.m in Sources */,
+				180254C61D46037100E39B21 /* V2Helper.m in Sources */,
 				18E4D22B1D45AB930081FCC0 /* SCPullRefreshViewController.m in Sources */,
 				18E4D22E1D45ABB30081FCC0 /* SCAnimationView.m in Sources */,
+				180254B51D46006500E39B21 /* SCNavigationPushAnimation.m in Sources */,
 				18E4D2381D45AED10081FCC0 /* V2SettingViewController.m in Sources */,
+				180254B21D46006500E39B21 /* SCNavigationController.m in Sources */,
+				180254B41D46006500E39B21 /* SCNavigationPopAnimation.m in Sources */,
+				180254B11D46006500E39B21 /* SCBarButtonItem.m in Sources */,
 				18C3AC7B1D41FABF001FE82B /* AppDelegate.m in Sources */,
+				1802549D1D45E65100E39B21 /* V2SettingManager.m in Sources */,
 				18C3AC781D41FABF001FE82B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +569,8 @@
 			baseConfigurationReference = EA9809F56FD2012FEE8190B8 /* Pods-V2ex_learning.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "V2ex_learning/V2ex_learning-iOS-Prefix.pch";
 				INFOPLIST_FILE = V2ex_learning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yjh.V2ex-learning";
@@ -451,6 +583,8 @@
 			baseConfigurationReference = 58CF5D50B0B996C6F234DEB7 /* Pods-V2ex_learning.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "V2ex_learning/V2ex_learning-iOS-Prefix.pch";
 				INFOPLIST_FILE = V2ex_learning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yjh.V2ex-learning";
