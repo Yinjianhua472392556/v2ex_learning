@@ -65,14 +65,12 @@
 		18C3AC751D41FABF001FE82B /* V2ex_learning */ = {
 			isa = PBXGroup;
 			children = (
-				18C3AC791D41FABF001FE82B /* AppDelegate.h */,
-				18C3AC7A1D41FABF001FE82B /* AppDelegate.m */,
-				18C3AC7C1D41FABF001FE82B /* ViewController.h */,
-				18C3AC7D1D41FABF001FE82B /* ViewController.m */,
-				18C3AC7F1D41FABF001FE82B /* Main.storyboard */,
-				18C3AC821D41FABF001FE82B /* Assets.xcassets */,
-				18C3AC841D41FABF001FE82B /* LaunchScreen.storyboard */,
-				18C3AC871D41FABF001FE82B /* Info.plist */,
+				18E4D21B1D45A9A20081FCC0 /* Additions */,
+				18E4D21C1D45A9A20081FCC0 /* Controllers */,
+				18E4D21D1D45A9A20081FCC0 /* Managers */,
+				18E4D21E1D45A9A20081FCC0 /* Models */,
+				18E4D2201D45A9A20081FCC0 /* Views */,
+				18E4D21F1D45A9A20081FCC0 /* Resources */,
 				18C3AC761D41FABF001FE82B /* Supporting Files */,
 			);
 			path = V2ex_learning;
@@ -82,8 +80,58 @@
 			isa = PBXGroup;
 			children = (
 				18C3AC771D41FABF001FE82B /* main.m */,
+				18C3AC791D41FABF001FE82B /* AppDelegate.h */,
+				18C3AC7A1D41FABF001FE82B /* AppDelegate.m */,
+				18C3AC7C1D41FABF001FE82B /* ViewController.h */,
+				18C3AC7D1D41FABF001FE82B /* ViewController.m */,
+				18C3AC7F1D41FABF001FE82B /* Main.storyboard */,
+				18C3AC821D41FABF001FE82B /* Assets.xcassets */,
+				18C3AC841D41FABF001FE82B /* LaunchScreen.storyboard */,
+				18C3AC871D41FABF001FE82B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18E4D21B1D45A9A20081FCC0 /* Additions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Additions;
+			sourceTree = "<group>";
+		};
+		18E4D21C1D45A9A20081FCC0 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18E4D21D1D45A9A20081FCC0 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		18E4D21E1D45A9A20081FCC0 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18E4D21F1D45A9A20081FCC0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18E4D2201D45A9A20081FCC0 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 		24DBDD059D81F7DADB813E9E /* Frameworks */ = {
