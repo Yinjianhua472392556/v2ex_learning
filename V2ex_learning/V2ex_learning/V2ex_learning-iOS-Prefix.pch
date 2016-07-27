@@ -53,11 +53,30 @@
 #import "UIImage+Tint.h"
 #import <BlocksKit.h>
 #import <BlocksKit+UIKit.h>
+#import "SVProgressHUD.h"
+#import "V2DataManager.h"
+
+#import "NSDictionary+NotNullKey.h"
 
 #import <objc/runtime.h>
 
 static NSString * const kThemeDidChangeNotification = @"ThemeDidChangeNotification";
 static NSString * const kStatusBarTappedNotification = @"StatusBarTappedNotification";
+static NSString * const kUpdateCheckInBadgeNotification = @"UpdateCheckInBadgeNotification";
+
+static NSString * const kLoginSuccessNotification = @"LoginSuccessNotification";
+
+#define TEST
+
+#ifdef TEST
+
+#define V2Log(...) NSLog(@"%@", [NSString stringWithFormat:__VA_ARGS__]);
+
+#else
+
+#define V2Log(...)
+
+#endif
 
 
 #endif /* V2ex_learning_iOS_Prefix_pch */

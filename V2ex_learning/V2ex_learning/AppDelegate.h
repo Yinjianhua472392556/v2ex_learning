@@ -10,10 +10,11 @@
 
 #import "SCNavigationController.h"
 #import "V2RootViewController.h"
+#import "V2LoginViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (nonatomic, strong) V2RootViewController *rootViewController;
+@property (nonatomic, strong) V2LoginViewController *rootViewController;
 
 @property (strong, nonatomic) UIWindow *window;
 

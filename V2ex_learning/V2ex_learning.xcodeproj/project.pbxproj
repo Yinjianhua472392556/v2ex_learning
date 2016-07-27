@@ -22,6 +22,17 @@
 		180254C01D46034100E39B21 /* UIImage+Tint.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254BF1D46034100E39B21 /* UIImage+Tint.m */; };
 		180254C31D46035000E39B21 /* UIImage+Cache.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254C21D46035000E39B21 /* UIImage+Cache.m */; };
 		180254C61D46037100E39B21 /* V2Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254C51D46037100E39B21 /* V2Helper.m */; };
+		180254CB1D470F1E00E39B21 /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 180254C81D470F1E00E39B21 /* SVProgressHUD.bundle */; };
+		180254CC1D470F1E00E39B21 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254CA1D470F1E00E39B21 /* SVProgressHUD.m */; };
+		180254CF1D47458100E39B21 /* V2BaseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254CE1D47458100E39B21 /* V2BaseModel.m */; };
+		180254D21D4745BB00E39B21 /* V2UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254D11D4745BB00E39B21 /* V2UserModel.m */; };
+		180254D51D4745CE00E39B21 /* V2MemberModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254D41D4745CE00E39B21 /* V2MemberModel.m */; };
+		180254D91D4746B000E39B21 /* NSDictionary+NotNullKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254D81D4746B000E39B21 /* NSDictionary+NotNullKey.m */; };
+		180254DF1D47594100E39B21 /* HTMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254DC1D47594100E39B21 /* HTMLNode.m */; };
+		180254E01D47594100E39B21 /* HTMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254DE1D47594100E39B21 /* HTMLParser.m */; };
+		180254E31D475FC200E39B21 /* V2CheckInManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254E21D475FC200E39B21 /* V2CheckInManager.m */; };
+		180254E91D4778A400E39B21 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 180254E81D4778A400E39B21 /* libxml2.2.dylib */; };
+		180254EA1D4779B900E39B21 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 180254E41D4776A800E39B21 /* libxml2.2.tbd */; };
 		18C3AC781D41FABF001FE82B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3AC771D41FABF001FE82B /* main.m */; };
 		18C3AC7B1D41FABF001FE82B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3AC7A1D41FABF001FE82B /* AppDelegate.m */; };
 		18C3AC7E1D41FABF001FE82B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3AC7D1D41FABF001FE82B /* ViewController.m */; };
@@ -71,6 +82,26 @@
 		180254C21D46035000E39B21 /* UIImage+Cache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Cache.m"; sourceTree = "<group>"; };
 		180254C41D46037100E39B21 /* V2Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2Helper.h; sourceTree = "<group>"; };
 		180254C51D46037100E39B21 /* V2Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2Helper.m; sourceTree = "<group>"; };
+		180254C81D470F1E00E39B21 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		180254C91D470F1E00E39B21 /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		180254CA1D470F1E00E39B21 /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		180254CD1D47458100E39B21 /* V2BaseModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2BaseModel.h; sourceTree = "<group>"; };
+		180254CE1D47458100E39B21 /* V2BaseModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2BaseModel.m; sourceTree = "<group>"; };
+		180254D01D4745BB00E39B21 /* V2UserModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2UserModel.h; sourceTree = "<group>"; };
+		180254D11D4745BB00E39B21 /* V2UserModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2UserModel.m; sourceTree = "<group>"; };
+		180254D31D4745CE00E39B21 /* V2MemberModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2MemberModel.h; sourceTree = "<group>"; };
+		180254D41D4745CE00E39B21 /* V2MemberModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2MemberModel.m; sourceTree = "<group>"; };
+		180254D71D4746B000E39B21 /* NSDictionary+NotNullKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NotNullKey.h"; sourceTree = "<group>"; };
+		180254D81D4746B000E39B21 /* NSDictionary+NotNullKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NotNullKey.m"; sourceTree = "<group>"; };
+		180254DB1D47594100E39B21 /* HTMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLNode.h; sourceTree = "<group>"; };
+		180254DC1D47594100E39B21 /* HTMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLNode.m; sourceTree = "<group>"; };
+		180254DD1D47594100E39B21 /* HTMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLParser.h; sourceTree = "<group>"; };
+		180254DE1D47594100E39B21 /* HTMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLParser.m; sourceTree = "<group>"; };
+		180254E11D475FC200E39B21 /* V2CheckInManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2CheckInManager.h; sourceTree = "<group>"; };
+		180254E21D475FC200E39B21 /* V2CheckInManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2CheckInManager.m; sourceTree = "<group>"; };
+		180254E41D4776A800E39B21 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
+		180254E61D4776FB00E39B21 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		180254E81D4778A400E39B21 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
 		18C3AC731D41FABF001FE82B /* V2ex_learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = V2ex_learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C3AC771D41FABF001FE82B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18C3AC791D41FABF001FE82B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +135,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				180254EA1D4779B900E39B21 /* libxml2.2.tbd in Frameworks */,
+				180254E91D4778A400E39B21 /* libxml2.2.dylib in Frameworks */,
 				F000FF0220D54083F3FD4562 /* libPods-V2ex_learning.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -168,6 +201,36 @@
 			path = Helper;
 			sourceTree = "<group>";
 		};
+		180254C71D470F1E00E39B21 /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				180254C81D470F1E00E39B21 /* SVProgressHUD.bundle */,
+				180254C91D470F1E00E39B21 /* SVProgressHUD.h */,
+				180254CA1D470F1E00E39B21 /* SVProgressHUD.m */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		180254D61D47469A00E39B21 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				180254D71D4746B000E39B21 /* NSDictionary+NotNullKey.h */,
+				180254D81D4746B000E39B21 /* NSDictionary+NotNullKey.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		180254DA1D47594100E39B21 /* HTMLParser */ = {
+			isa = PBXGroup;
+			children = (
+				180254DB1D47594100E39B21 /* HTMLNode.h */,
+				180254DC1D47594100E39B21 /* HTMLNode.m */,
+				180254DD1D47594100E39B21 /* HTMLParser.h */,
+				180254DE1D47594100E39B21 /* HTMLParser.m */,
+			);
+			path = HTMLParser;
+			sourceTree = "<group>";
+		};
 		18C3AC6A1D41FABF001FE82B = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +283,9 @@
 		18E4D21B1D45A9A20081FCC0 /* Additions */ = {
 			isa = PBXGroup;
 			children = (
+				180254DA1D47594100E39B21 /* HTMLParser */,
+				180254D61D47469A00E39B21 /* Categories */,
+				180254C71D470F1E00E39B21 /* SVProgressHUD */,
 				180254BD1D46031400E39B21 /* Helper */,
 				180254B81D46014E00E39B21 /* EXTScope */,
 				180254A11D46006500E39B21 /* SCNavitagionController */,
@@ -249,6 +315,8 @@
 				1802549C1D45E65100E39B21 /* V2SettingManager.m */,
 				1802549E1D45F48100E39B21 /* V2DataManager.h */,
 				1802549F1D45F48100E39B21 /* V2DataManager.m */,
+				180254E11D475FC200E39B21 /* V2CheckInManager.h */,
+				180254E21D475FC200E39B21 /* V2CheckInManager.m */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -256,6 +324,12 @@
 		18E4D21E1D45A9A20081FCC0 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				180254CD1D47458100E39B21 /* V2BaseModel.h */,
+				180254CE1D47458100E39B21 /* V2BaseModel.m */,
+				180254D31D4745CE00E39B21 /* V2MemberModel.h */,
+				180254D41D4745CE00E39B21 /* V2MemberModel.m */,
+				180254D01D4745BB00E39B21 /* V2UserModel.h */,
+				180254D11D4745BB00E39B21 /* V2UserModel.m */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -298,6 +372,9 @@
 		24DBDD059D81F7DADB813E9E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				180254E81D4778A400E39B21 /* libxml2.2.dylib */,
+				180254E61D4776FB00E39B21 /* libxml2.tbd */,
+				180254E41D4776A800E39B21 /* libxml2.2.tbd */,
 				5456D5395E97339A3073D58F /* libPods-V2ex_learning.a */,
 			);
 			name = Frameworks;
@@ -375,6 +452,7 @@
 				18C3AC861D41FABF001FE82B /* LaunchScreen.storyboard in Resources */,
 				18C3AC831D41FABF001FE82B /* Assets.xcassets in Resources */,
 				18C3AC811D41FABF001FE82B /* Main.storyboard in Resources */,
+				180254CB1D470F1E00E39B21 /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,18 +514,26 @@
 				18E4D2351D45AE8E0081FCC0 /* CAAnimation+BlocksAddition.m in Sources */,
 				18E4D2261D45AB0F0081FCC0 /* V2LoginViewController.m in Sources */,
 				180254B31D46006500E39B21 /* SCNavigationItem.m in Sources */,
+				180254D21D4745BB00E39B21 /* V2UserModel.m in Sources */,
 				180254BC1D46014E00E39B21 /* EXTScope.m in Sources */,
+				180254E31D475FC200E39B21 /* V2CheckInManager.m in Sources */,
+				180254D91D4746B000E39B21 /* NSDictionary+NotNullKey.m in Sources */,
 				180254991D45BB7A00E39B21 /* UIScrollView+FrameAccessor.m in Sources */,
 				180254A01D45F48100E39B21 /* V2DataManager.m in Sources */,
+				180254D51D4745CE00E39B21 /* V2MemberModel.m in Sources */,
 				180254B71D46006500E39B21 /* V2NavigationBar.m in Sources */,
 				180254961D45BB6400E39B21 /* UIView+ViewFrameAccessor.m in Sources */,
+				180254CF1D47458100E39B21 /* V2BaseModel.m in Sources */,
 				18E4D2231D45AAF40081FCC0 /* V2RootViewController.m in Sources */,
 				180254B61D46006500E39B21 /* SCViewController+NaviBar.m in Sources */,
+				180254E01D47594100E39B21 /* HTMLParser.m in Sources */,
 				180254C31D46035000E39B21 /* UIImage+Cache.m in Sources */,
 				180254C01D46034100E39B21 /* UIImage+Tint.m in Sources */,
+				180254CC1D470F1E00E39B21 /* SVProgressHUD.m in Sources */,
 				18C3AC7E1D41FABF001FE82B /* ViewController.m in Sources */,
 				180254C61D46037100E39B21 /* V2Helper.m in Sources */,
 				18E4D22B1D45AB930081FCC0 /* SCPullRefreshViewController.m in Sources */,
+				180254DF1D47594100E39B21 /* HTMLNode.m in Sources */,
 				18E4D22E1D45ABB30081FCC0 /* SCAnimationView.m in Sources */,
 				180254B51D46006500E39B21 /* SCNavigationPushAnimation.m in Sources */,
 				18E4D2381D45AED10081FCC0 /* V2SettingViewController.m in Sources */,
@@ -571,6 +657,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "V2ex_learning/V2ex_learning-iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/BlocksKit\"",
+					"\"${PODS_ROOT}/Headers/Public/FXKeychain\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MWFeedParser\"",
+					"\"${PODS_ROOT}/Headers/Public/NSString-Hashes\"",
+					"\"${PODS_ROOT}/Headers/Public/NYXImagesKit\"",
+					"\"${PODS_ROOT}/Headers/Public/RegexKitLite\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = V2ex_learning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yjh.V2ex-learning";
@@ -585,6 +684,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "V2ex_learning/V2ex_learning-iOS-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/BlocksKit\"",
+					"\"${PODS_ROOT}/Headers/Public/FXKeychain\"",
+					"\"${PODS_ROOT}/Headers/Public/MBProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/MWFeedParser\"",
+					"\"${PODS_ROOT}/Headers/Public/NSString-Hashes\"",
+					"\"${PODS_ROOT}/Headers/Public/NYXImagesKit\"",
+					"\"${PODS_ROOT}/Headers/Public/RegexKitLite\"",
+					/usr/include/libxml2,
+				);
 				INFOPLIST_FILE = V2ex_learning/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "yjh.V2ex-learning";

@@ -10,4 +10,10 @@
 
 @interface V2Helper : NSObject
 
+/**
+ *  Other
+ */
++ (UIImage *)getImageWithColor:(UIColor *)color;
+
++ (UIImage *)getImageWithColor:(UIColor *)color size:(CGSize)size;
 @end
