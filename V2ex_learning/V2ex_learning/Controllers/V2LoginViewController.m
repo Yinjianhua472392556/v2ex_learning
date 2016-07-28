@@ -312,6 +312,8 @@ static CGFloat const kContainViewYEditing = 60.0;
                     user.member = member;
                     user.name = member.memberName;
                     
+                    [V2DataManager manager].user = user;
+                    
                     [[NSNotificationCenter defaultCenter] postNotificationName:kLoginSuccessNotification object:nil];
                     
                     [self endLogin];
