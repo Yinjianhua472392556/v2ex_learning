@@ -61,6 +61,7 @@ typedef NS_ENUM (NSInteger, V2HotNodesType) {
                                        password:(NSString *)password
                                         success:(void (^)(NSString *message))success
                                         failure:(void (^)(NSError *error))failure;
+- (void)UserLogout;
 
 #pragma mark - Notifications
 

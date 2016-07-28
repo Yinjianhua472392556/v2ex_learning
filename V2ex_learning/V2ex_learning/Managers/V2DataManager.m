@@ -240,6 +240,18 @@ typedef NS_ENUM(NSUInteger, V2RequestMethod) {
 }
 
 
+- (void)UserLogout {
+
+    NSHTTPCookieStorage *storage = [NSHTTPCookieStorage sharedHTTPCookieStorage];
+    for (NSHTTPCookie *cookie in [storage cookies]) {
+        [storage deleteCookie:cookie];
+    }
+    self.user = nil;
+    [[V2CheckInManager manager] removeStatus];
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:kLogoutSuccessNotification object:nil];
+}
+
 #pragma mark - Notifications
 
 - (NSURLSessionDataTask *)getCheckInCountSuccess:(void (^)(NSInteger count))success failure:(void (^)(NSError *error))failure {

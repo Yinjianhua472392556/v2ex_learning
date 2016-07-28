@@ -14,7 +14,7 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (nonatomic, strong) V2LoginViewController *rootViewController;
+@property (nonatomic, strong) V2RootViewController *rootViewController;
 
 @property (strong, nonatomic) UIWindow *window;
 

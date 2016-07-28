@@ -44,6 +44,8 @@
 
 
 #import <AFNetworking.h>
+#import <SDWebImage/SDWebImageManager.h>
+#import <SDWebImage/UIImageView+WebCache.h>
 #import "FrameAccessor.h"
 #import "V2DataManager.h"
 #import "V2SettingManager.h"
@@ -55,6 +57,7 @@
 #import <BlocksKit+UIKit.h>
 #import "SVProgressHUD.h"
 #import "V2DataManager.h"
+#import "V2Helper.h"
 
 #import "NSDictionary+NotNullKey.h"
 
@@ -65,6 +68,11 @@ static NSString * const kStatusBarTappedNotification = @"StatusBarTappedNotifica
 static NSString * const kUpdateCheckInBadgeNotification = @"UpdateCheckInBadgeNotification";
 
 static NSString * const kLoginSuccessNotification = @"LoginSuccessNotification";
+static NSString * const kLogoutSuccessNotification = @"LogoutSuccessNotification";
+
+static NSString * const kShowMenuNotification = @"ShowMenuNotificaion";
+
+static NSString * const kShowLoginVCNotification = @"ShowLoginVCNotification";
 
 #define TEST
 

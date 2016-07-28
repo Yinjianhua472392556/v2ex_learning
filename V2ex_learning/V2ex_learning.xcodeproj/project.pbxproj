@@ -33,6 +33,19 @@
 		180254E31D475FC200E39B21 /* V2CheckInManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 180254E21D475FC200E39B21 /* V2CheckInManager.m */; };
 		180254E91D4778A400E39B21 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 180254E81D4778A400E39B21 /* libxml2.2.dylib */; };
 		180254EA1D4779B900E39B21 /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 180254E41D4776A800E39B21 /* libxml2.2.tbd */; };
+		18225E5A1D48A872008E9E87 /* V2LatestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225E591D48A872008E9E87 /* V2LatestViewController.m */; };
+		18225E5D1D48A883008E9E87 /* V2CategoriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225E5C1D48A883008E9E87 /* V2CategoriesViewController.m */; };
+		18225E601D48A89B008E9E87 /* V2NodesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225E5F1D48A89B008E9E87 /* V2NodesViewController.m */; };
+		18225E631D48A8AF008E9E87 /* V2NotificationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225E621D48A8AF008E9E87 /* V2NotificationViewController.m */; };
+		18225E661D48A8C4008E9E87 /* V2ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225E651D48A8C4008E9E87 /* V2ProfileViewController.m */; };
+		18225E691D48A926008E9E87 /* V2FavoriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225E681D48A926008E9E87 /* V2FavoriteViewController.m */; };
+		18225E6D1D49A03A008E9E87 /* V2MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225E6C1D49A03A008E9E87 /* V2MenuView.m */; };
+		18225E731D49A0A7008E9E87 /* UIImage+REFrosted.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225E701D49A0A7008E9E87 /* UIImage+REFrosted.m */; };
+		18225E741D49A0A7008E9E87 /* UIView+REFrosted.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225E721D49A0A7008E9E87 /* UIView+REFrosted.m */; };
+		18225E9A1D49BB4B008E9E87 /* V2MenuSectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225E991D49BB4B008E9E87 /* V2MenuSectionView.m */; };
+		18225EA01D49E45B008E9E87 /* SCActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225E9D1D49E45B008E9E87 /* SCActionSheet.m */; };
+		18225EA11D49E45B008E9E87 /* SCActionSheetButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225E9F1D49E45B008E9E87 /* SCActionSheetButton.m */; };
+		18225EA41D49E493008E9E87 /* V2MenuSectionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18225EA31D49E493008E9E87 /* V2MenuSectionCell.m */; };
 		18C3AC781D41FABF001FE82B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3AC771D41FABF001FE82B /* main.m */; };
 		18C3AC7B1D41FABF001FE82B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3AC7A1D41FABF001FE82B /* AppDelegate.m */; };
 		18C3AC7E1D41FABF001FE82B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C3AC7D1D41FABF001FE82B /* ViewController.m */; };
@@ -102,6 +115,32 @@
 		180254E41D4776A800E39B21 /* libxml2.2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.2.tbd; path = usr/lib/libxml2.2.tbd; sourceTree = SDKROOT; };
 		180254E61D4776FB00E39B21 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
 		180254E81D4778A400E39B21 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = ../../../../../../usr/lib/libxml2.2.dylib; sourceTree = "<group>"; };
+		18225E581D48A872008E9E87 /* V2LatestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2LatestViewController.h; sourceTree = "<group>"; };
+		18225E591D48A872008E9E87 /* V2LatestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2LatestViewController.m; sourceTree = "<group>"; };
+		18225E5B1D48A883008E9E87 /* V2CategoriesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2CategoriesViewController.h; sourceTree = "<group>"; };
+		18225E5C1D48A883008E9E87 /* V2CategoriesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2CategoriesViewController.m; sourceTree = "<group>"; };
+		18225E5E1D48A89B008E9E87 /* V2NodesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2NodesViewController.h; sourceTree = "<group>"; };
+		18225E5F1D48A89B008E9E87 /* V2NodesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2NodesViewController.m; sourceTree = "<group>"; };
+		18225E611D48A8AF008E9E87 /* V2NotificationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2NotificationViewController.h; sourceTree = "<group>"; };
+		18225E621D48A8AF008E9E87 /* V2NotificationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2NotificationViewController.m; sourceTree = "<group>"; };
+		18225E641D48A8C4008E9E87 /* V2ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2ProfileViewController.h; sourceTree = "<group>"; };
+		18225E651D48A8C4008E9E87 /* V2ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2ProfileViewController.m; sourceTree = "<group>"; };
+		18225E671D48A926008E9E87 /* V2FavoriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2FavoriteViewController.h; sourceTree = "<group>"; };
+		18225E681D48A926008E9E87 /* V2FavoriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2FavoriteViewController.m; sourceTree = "<group>"; };
+		18225E6B1D49A03A008E9E87 /* V2MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2MenuView.h; sourceTree = "<group>"; };
+		18225E6C1D49A03A008E9E87 /* V2MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2MenuView.m; sourceTree = "<group>"; };
+		18225E6F1D49A0A7008E9E87 /* UIImage+REFrosted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+REFrosted.h"; sourceTree = "<group>"; };
+		18225E701D49A0A7008E9E87 /* UIImage+REFrosted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+REFrosted.m"; sourceTree = "<group>"; };
+		18225E711D49A0A7008E9E87 /* UIView+REFrosted.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+REFrosted.h"; sourceTree = "<group>"; };
+		18225E721D49A0A7008E9E87 /* UIView+REFrosted.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+REFrosted.m"; sourceTree = "<group>"; };
+		18225E981D49BB4B008E9E87 /* V2MenuSectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2MenuSectionView.h; sourceTree = "<group>"; };
+		18225E991D49BB4B008E9E87 /* V2MenuSectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2MenuSectionView.m; sourceTree = "<group>"; };
+		18225E9C1D49E45B008E9E87 /* SCActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCActionSheet.h; sourceTree = "<group>"; };
+		18225E9D1D49E45B008E9E87 /* SCActionSheet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCActionSheet.m; sourceTree = "<group>"; };
+		18225E9E1D49E45B008E9E87 /* SCActionSheetButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCActionSheetButton.h; sourceTree = "<group>"; };
+		18225E9F1D49E45B008E9E87 /* SCActionSheetButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SCActionSheetButton.m; sourceTree = "<group>"; };
+		18225EA21D49E493008E9E87 /* V2MenuSectionCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = V2MenuSectionCell.h; sourceTree = "<group>"; };
+		18225EA31D49E493008E9E87 /* V2MenuSectionCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = V2MenuSectionCell.m; sourceTree = "<group>"; };
 		18C3AC731D41FABF001FE82B /* V2ex_learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = V2ex_learning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18C3AC771D41FABF001FE82B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		18C3AC791D41FABF001FE82B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -231,6 +270,67 @@
 			path = HTMLParser;
 			sourceTree = "<group>";
 		};
+		18225E561D48A79F008E9E87 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				18225E581D48A872008E9E87 /* V2LatestViewController.h */,
+				18225E591D48A872008E9E87 /* V2LatestViewController.m */,
+				18225E5B1D48A883008E9E87 /* V2CategoriesViewController.h */,
+				18225E5C1D48A883008E9E87 /* V2CategoriesViewController.m */,
+				18225E5E1D48A89B008E9E87 /* V2NodesViewController.h */,
+				18225E5F1D48A89B008E9E87 /* V2NodesViewController.m */,
+				18225E611D48A8AF008E9E87 /* V2NotificationViewController.h */,
+				18225E621D48A8AF008E9E87 /* V2NotificationViewController.m */,
+				18225E641D48A8C4008E9E87 /* V2ProfileViewController.h */,
+				18225E651D48A8C4008E9E87 /* V2ProfileViewController.m */,
+				18225E671D48A926008E9E87 /* V2FavoriteViewController.h */,
+				18225E681D48A926008E9E87 /* V2FavoriteViewController.m */,
+			);
+			path = Sections;
+			sourceTree = "<group>";
+		};
+		18225E571D48A7BD008E9E87 /* Contents */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contents;
+			sourceTree = "<group>";
+		};
+		18225E6A1D49A017008E9E87 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				18225E6B1D49A03A008E9E87 /* V2MenuView.h */,
+				18225E6C1D49A03A008E9E87 /* V2MenuView.m */,
+				18225E981D49BB4B008E9E87 /* V2MenuSectionView.h */,
+				18225E991D49BB4B008E9E87 /* V2MenuSectionView.m */,
+				18225EA21D49E493008E9E87 /* V2MenuSectionCell.h */,
+				18225EA31D49E493008E9E87 /* V2MenuSectionCell.m */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		18225E6E1D49A0A7008E9E87 /* REForestedView */ = {
+			isa = PBXGroup;
+			children = (
+				18225E6F1D49A0A7008E9E87 /* UIImage+REFrosted.h */,
+				18225E701D49A0A7008E9E87 /* UIImage+REFrosted.m */,
+				18225E711D49A0A7008E9E87 /* UIView+REFrosted.h */,
+				18225E721D49A0A7008E9E87 /* UIView+REFrosted.m */,
+			);
+			path = REForestedView;
+			sourceTree = "<group>";
+		};
+		18225E9B1D49E45B008E9E87 /* SCActionSheet */ = {
+			isa = PBXGroup;
+			children = (
+				18225E9C1D49E45B008E9E87 /* SCActionSheet.h */,
+				18225E9D1D49E45B008E9E87 /* SCActionSheet.m */,
+				18225E9E1D49E45B008E9E87 /* SCActionSheetButton.h */,
+				18225E9F1D49E45B008E9E87 /* SCActionSheetButton.m */,
+			);
+			path = SCActionSheet;
+			sourceTree = "<group>";
+		};
 		18C3AC6A1D41FABF001FE82B = {
 			isa = PBXGroup;
 			children = (
@@ -283,6 +383,8 @@
 		18E4D21B1D45A9A20081FCC0 /* Additions */ = {
 			isa = PBXGroup;
 			children = (
+				18225E9B1D49E45B008E9E87 /* SCActionSheet */,
+				18225E6E1D49A0A7008E9E87 /* REForestedView */,
 				180254DA1D47594100E39B21 /* HTMLParser */,
 				180254D61D47469A00E39B21 /* Categories */,
 				180254C71D470F1E00E39B21 /* SVProgressHUD */,
@@ -304,6 +406,8 @@
 				18E4D2251D45AB0F0081FCC0 /* V2LoginViewController.m */,
 				18E4D2361D45AED10081FCC0 /* V2SettingViewController.h */,
 				18E4D2371D45AED10081FCC0 /* V2SettingViewController.m */,
+				18225E571D48A7BD008E9E87 /* Contents */,
+				18225E561D48A79F008E9E87 /* Sections */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -344,6 +448,7 @@
 		18E4D2201D45A9A20081FCC0 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				18225E6A1D49A017008E9E87 /* Menu */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -512,8 +617,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				18E4D2351D45AE8E0081FCC0 /* CAAnimation+BlocksAddition.m in Sources */,
+				18225EA41D49E493008E9E87 /* V2MenuSectionCell.m in Sources */,
 				18E4D2261D45AB0F0081FCC0 /* V2LoginViewController.m in Sources */,
 				180254B31D46006500E39B21 /* SCNavigationItem.m in Sources */,
+				18225E631D48A8AF008E9E87 /* V2NotificationViewController.m in Sources */,
 				180254D21D4745BB00E39B21 /* V2UserModel.m in Sources */,
 				180254BC1D46014E00E39B21 /* EXTScope.m in Sources */,
 				180254E31D475FC200E39B21 /* V2CheckInManager.m in Sources */,
@@ -522,27 +629,38 @@
 				180254A01D45F48100E39B21 /* V2DataManager.m in Sources */,
 				180254D51D4745CE00E39B21 /* V2MemberModel.m in Sources */,
 				180254B71D46006500E39B21 /* V2NavigationBar.m in Sources */,
+				18225E5A1D48A872008E9E87 /* V2LatestViewController.m in Sources */,
+				18225E6D1D49A03A008E9E87 /* V2MenuView.m in Sources */,
+				18225E5D1D48A883008E9E87 /* V2CategoriesViewController.m in Sources */,
 				180254961D45BB6400E39B21 /* UIView+ViewFrameAccessor.m in Sources */,
 				180254CF1D47458100E39B21 /* V2BaseModel.m in Sources */,
+				18225E661D48A8C4008E9E87 /* V2ProfileViewController.m in Sources */,
 				18E4D2231D45AAF40081FCC0 /* V2RootViewController.m in Sources */,
 				180254B61D46006500E39B21 /* SCViewController+NaviBar.m in Sources */,
 				180254E01D47594100E39B21 /* HTMLParser.m in Sources */,
 				180254C31D46035000E39B21 /* UIImage+Cache.m in Sources */,
 				180254C01D46034100E39B21 /* UIImage+Tint.m in Sources */,
 				180254CC1D470F1E00E39B21 /* SVProgressHUD.m in Sources */,
+				18225E731D49A0A7008E9E87 /* UIImage+REFrosted.m in Sources */,
 				18C3AC7E1D41FABF001FE82B /* ViewController.m in Sources */,
 				180254C61D46037100E39B21 /* V2Helper.m in Sources */,
+				18225E9A1D49BB4B008E9E87 /* V2MenuSectionView.m in Sources */,
 				18E4D22B1D45AB930081FCC0 /* SCPullRefreshViewController.m in Sources */,
 				180254DF1D47594100E39B21 /* HTMLNode.m in Sources */,
 				18E4D22E1D45ABB30081FCC0 /* SCAnimationView.m in Sources */,
+				18225E691D48A926008E9E87 /* V2FavoriteViewController.m in Sources */,
 				180254B51D46006500E39B21 /* SCNavigationPushAnimation.m in Sources */,
 				18E4D2381D45AED10081FCC0 /* V2SettingViewController.m in Sources */,
 				180254B21D46006500E39B21 /* SCNavigationController.m in Sources */,
 				180254B41D46006500E39B21 /* SCNavigationPopAnimation.m in Sources */,
 				180254B11D46006500E39B21 /* SCBarButtonItem.m in Sources */,
+				18225EA11D49E45B008E9E87 /* SCActionSheetButton.m in Sources */,
+				18225E601D48A89B008E9E87 /* V2NodesViewController.m in Sources */,
+				18225EA01D49E45B008E9E87 /* SCActionSheet.m in Sources */,
 				18C3AC7B1D41FABF001FE82B /* AppDelegate.m in Sources */,
 				1802549D1D45E65100E39B21 /* V2SettingManager.m in Sources */,
 				18C3AC781D41FABF001FE82B /* main.m in Sources */,
+				18225E741D49A0A7008E9E87 /* UIView+REFrosted.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

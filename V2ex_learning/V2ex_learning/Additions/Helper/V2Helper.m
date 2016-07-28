@@ -39,4 +39,21 @@
     return image;
 }
 
++ (UIImage *)getImageFromView:(UIView *)orgView {
+
+    if (orgView) {
+        
+        UIGraphicsBeginImageContextWithOptions(orgView.bounds.size, NO, [UIScreen mainScreen].scale);
+        [orgView.layer renderInContext:UIGraphicsGetCurrentContext()];
+        UIImage*image = UIGraphicsGetImageFromCurrentImageContext();
+        UIGraphicsEndImageContext();
+        return image;
+        
+    }else {
+    
+        return nil;
+    }
+    
+}
+
 @end
